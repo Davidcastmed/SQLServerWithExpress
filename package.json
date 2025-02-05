@@ -1,0 +1,23 @@
+{
+  "name": "conexion-exitosa-con-sql-server-ademas-de-una-estructura-basica",
+  "version": "1.0.0",
+  "description": "Esto-es-lo-minimo-necesario-para-una-conexion-segura",
+  "type": "module",
+  "main": "server.js",
+  "author": "David Castillo",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/server.js", 
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.1",
+    "mssql": "^11.0.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
